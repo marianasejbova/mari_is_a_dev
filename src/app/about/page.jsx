@@ -215,6 +215,14 @@ const page = () => {
               Because with the right JavaScript framework, everything is possible.
             </AnimatedCopy>
 
+            <div className="founder-image">
+              <ParallaxImage
+                src="/about/IMG_7414.jpg"
+                alt="Mariana Šejbová"
+                speed={0.3}
+              />
+            </div>
+
             <div className="founter-info">
               <AnimatedCopy>Mariana Šejbová</AnimatedCopy>
               <AnimatedCopy>That's me</AnimatedCopy>

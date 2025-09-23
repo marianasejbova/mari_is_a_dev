@@ -257,8 +257,23 @@ section.expertise {
 }
 
 .founder-image {
-  width: 200px;
-  margin-bottom: 20px;
+  width: 300px;
+  height: 400px;
+  margin: 2em 0;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 2em;
+}
+
+.founder-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .my-stack {

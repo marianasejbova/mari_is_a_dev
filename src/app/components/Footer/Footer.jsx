@@ -65,34 +65,26 @@ const Footer = () => {
           <div className="col">
             <div className="row">
               <div className="footer-socials">
-                <a href="https://www.instagram.com/codegridweb/">Instagram</a>
-                <a href="https://x.com/codegridweb">Twitter</a>
+                <a href="https://www.instagram.com/marian_sej/">Instagram</a>
+                <a href="https://www.linkedin.com/in/mariana-šejbová-627a4336b/">LinkedIn</a>
               </div>
 
               <div className="langs">
                 <p>EN</p>
-                <p>CS</p>
+                <p></p>
               </div>
             </div>
 
-        
-
-              <div className="location">
-                <h3>Tokyo</h3>
-                <p>3-5-7 Ginza</p>
-                <p>Chuo-ku, Tokyo 104-0061</p>
-                <p>Japan</p>
-              </div>
-            </div>
           </div>
         </div>
 
         <div className="footer-logo">
-          <h1 ref={logoRef}>Mari is a dev</h1>
+          <h1 ref={logoRef}>MARIANA</h1>
         </div>
 
         <div className="footer-copyright">
-          <p>ISOChrome &copy;2025. All rights reserved.</p>
+          <p>My portfolio</p>
+          <p>By mariana šejbová</p>
         </div>
       </div>
     </div>

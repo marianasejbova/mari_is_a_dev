@@ -1,0 +1,84 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/index.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.pre-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F9B4ED;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 100000;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #1E2D24;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.index-hero {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  overflow: hidden;
+  background-color: #F9B4ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-header {
+  width: 65%;
+  text-align: center;
+}
+
+.hero-header h1 {
+  font-size: 10vw;
+}
+
+.hero-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .hero-header {
+    width: 90%;
+  }
+
+  .hero-header h1 {
+    font-size: 20vw;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/components/AnimatedH1/AnimatedH1.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.animated-h1 [class^="line-"] {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  display: block;
+  overflow: hidden;
+}
+
+.animated-h1 [class^="line-inner-"] {
+  position: relative;
+  display: block;
+  will-change: transform;
+}
+

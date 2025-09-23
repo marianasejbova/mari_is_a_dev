@@ -71,17 +71,11 @@ const Footer = () => {
 
               <div className="langs">
                 <p>EN</p>
-                <p>FR</p>
+                <p>CS</p>
               </div>
             </div>
 
-            <div className="row">
-              <div className="location">
-                <h3>New York</h3>
-                <p>245 Fifth Avenue</p>
-                <p>New York, NY 10016</p>
-                <p>USA</p>
-              </div>
+        
 
               <div className="location">
                 <h3>Tokyo</h3>
@@ -94,12 +88,11 @@ const Footer = () => {
         </div>
 
         <div className="footer-logo">
-          <h1 ref={logoRef}>ISOChrome</h1>
+          <h1 ref={logoRef}>Mari is a dev</h1>
         </div>
 
         <div className="footer-copyright">
           <p>ISOChrome &copy;2025. All rights reserved.</p>
-          <p>By Codegrid</p>
         </div>
       </div>
     </div>

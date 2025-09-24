@@ -51,7 +51,10 @@ const page = () => {
                 <div className="sub-col"></div>
                 <div className="sub-col">
                   <AnimatedCopy delay={1.5}>
-                    My client wanted to create a single page website for a gym community. Just enough to provide important information for the members. Firstly, we focused on his visions, so we could design a website that would reflect his brand identity. Then, I did some deep research on the target audience and the competition. Then I implemented the website.
+                  Project: Single-Page Website for a Gym Community
+The client needed a single-page website to deliver essential information to gym members in a simple, accessible way.
+I began by aligning with the client’s vision to ensure the site reflected his brand identity. Next, I conducted research on the target audience and competitors, identifying design and usability patterns that would resonate with users.
+Finally, I implemented the website using JavaScript, HTML5, and CSS3, focusing on responsive design, performance optimization, and intuitive navigation. The result was a lightweight, user-friendly site that successfully connected the gym with its community.
                   </AnimatedCopy>
                 </div>
               </div>

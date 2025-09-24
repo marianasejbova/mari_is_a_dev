@@ -25,6 +25,8 @@ const techStack = [
   "Tailwind CSS",
   "GIT",
   "Figma",
+  "React",
+  "SwiftUI - in progress",
 ];
 
 const page = () => {

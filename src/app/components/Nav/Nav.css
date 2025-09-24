@@ -17,7 +17,7 @@ nav p,
 .showreel a,
 .media-link a {
   position: relative;
-  color: var(--copy);
+  color: #1E2D24;
   display: block;
   will-change: transform;
   user-select: none;

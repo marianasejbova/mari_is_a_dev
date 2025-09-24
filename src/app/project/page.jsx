@@ -80,6 +80,12 @@ Finally, I implemented the website using JavaScript, HTML5, and CSS3, focusing o
               The results spoke for themselves: organic search traffic saw a significant boost, while average session duration jumped by nearly +3 minutes — a clear indicator of stronger engagement.
               This project proved how thoughtful web development can reshape brand perception and drive measurable business outcomes when executed with creativity, precision, and user focus.
               </AnimatedCopy>
+
+              <AnimatedCopy delay={0.45}>
+                <a href="https://ultimatecrossgym.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  Visit Website: ultimatecrossgym.com
+                </a>
+              </AnimatedCopy>
             </div>
           </div>
         </section>

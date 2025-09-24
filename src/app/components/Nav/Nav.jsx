@@ -72,7 +72,6 @@ const Nav = () => {
       [
         menuOverlayBarRef.current.querySelector("a"),
         menuCloseBtnRef.current.querySelector("p"),
-        menuFooterRef.current.querySelector(".showreel a"),
         ...menuFooterRef.current.querySelectorAll(".media-link a"),
       ],
       {
@@ -83,9 +82,6 @@ const Nav = () => {
         onComplete: () => {
           gsap.set(menuOverlayBarRef.current.querySelector("a"), { y: 20 });
           gsap.set(menuCloseBtnRef.current.querySelector("p"), { y: 20 });
-          gsap.set(menuFooterRef.current.querySelector(".showreel a"), {
-            y: 20,
-          });
           gsap.set(menuFooterRef.current.querySelectorAll(".media-link a"), {
             y: 20,
           });
@@ -183,7 +179,6 @@ const Nav = () => {
       [
         menuOverlayBarRef.current.querySelector("a"),
         menuCloseBtnRef.current.querySelector("p"),
-        menuFooterRef.current.querySelector(".showreel a"),
         ...menuFooterRef.current.querySelectorAll(".media-link a"),
       ],
       {
@@ -266,12 +261,9 @@ const Nav = () => {
         </div>
 
         <div className="menu-footer" ref={menuFooterRef}>
-          <div className="showreel">
-            <a href="https://vimeo.com/1027126039">Showreel</a>
-          </div>
           <div className="socials">
             <div className="media-link">
-              <a href="https://www.instagram.com/codegridweb/">Instagram</a>
+              <a href="https://www.instagram.com/marian_sej/">Instagram</a>
             </div>
             <div className="media-link">
               <a href="https://x.com/codegridweb">Twitter</a>

@@ -10,19 +10,19 @@ import Footer from "../components/Footer/Footer";
 import { ReactLenis } from "@studio-freight/react-lenis";
 
 const Page = () => {
-  const [nyTime, setNyTime] = useState("--:-- AM EST");
+  const [cetTime, setCetTime] = useState("--:-- AM CET");
   const [tokyoTime, setTokyoTime] = useState("--:-- AM JST");
 
   useEffect(() => {
     const updateTimes = () => {
-      const nyOptions = {
-        timeZone: "America/New_York",
+      const cetOptions = {
+        timeZone: "Europe/Prague",
         hour: "numeric",
         minute: "numeric",
         hour12: true,
       };
-      const nyFormatter = new Intl.DateTimeFormat("en-US", nyOptions);
-      setNyTime(nyFormatter.format(new Date()) + " EST");
+      const cetFormatter = new Intl.DateTimeFormat("en-US", cetOptions);
+      setCetTime(cetFormatter.format(new Date()) + " CET");
 
       const tokyoOptions = {
         timeZone: "Asia/Tokyo",
@@ -72,31 +72,16 @@ const Page = () => {
             </div>
             <div className="row">
               <div className="col">
-                <AnimatedCopy>Prague</AnimatedCopy>
+                <AnimatedCopy>Mostly in</AnimatedCopy>
               </div>
               <div className="col">
                 <div className="sub-col">
                   <AnimatedCopy></AnimatedCopy>
-                  <AnimatedCopy>Prague, Czechia</AnimatedCopy>
-                  <AnimatedCopy>USA</AnimatedCopy>
+                  <AnimatedCopy>Czechia</AnimatedCopy>
+                  <AnimatedCopy>Dejvice, Prague 6</AnimatedCopy>
                 </div>
                 <div className="sub-col">
-                  <AnimatedCopy>{nyTime}</AnimatedCopy>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
-                <AnimatedCopy>Tokyo</AnimatedCopy>
-              </div>
-              <div className="col">
-                <div className="sub-col">
-                  <AnimatedCopy>3-5-7 Ginza</AnimatedCopy>
-                  <AnimatedCopy>Chuo-ku, Tokyo 104-0061</AnimatedCopy>
-                  <AnimatedCopy>Japan</AnimatedCopy>
-                </div>
-                <div className="sub-col">
-                  <AnimatedCopy>{tokyoTime}</AnimatedCopy>
+                  <AnimatedCopy>{cetTime}</AnimatedCopy>
                 </div>
               </div>
             </div>

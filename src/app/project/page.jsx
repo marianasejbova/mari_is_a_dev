@@ -70,18 +70,12 @@ const page = () => {
               </AnimatedCopy>
 
               <AnimatedCopy delay={0.15}>
-                The website featured responsive design
-                elements that adapted seamlessly to different devices, ensuring
-                a consistent user experience regardless of how customers
-                accessed the content.
+              The client’s goal was simple: provide members with all essential gym information in one intuitive, mobile-friendly interface. I began by mapping out his vision and translating it into a brand-aligned UI/UX design. To ensure the website stood out, I conducted market and competitor research, focusing on usability and clarity.
               </AnimatedCopy>
 
               <AnimatedCopy delay={0.3}>
-                Website traffic from organic searches
-                improved significantly, and average session duration increased
-                by nearly three minutes. This project demonstrated how website development can transform brand perception and drive
-                meaningful business outcomes when executed with creativity and
-                precision.
+              The results spoke for themselves: organic search traffic saw a significant boost, while average session duration jumped by nearly +3 minutes — a clear indicator of stronger engagement.
+              This project proved how thoughtful web development can reshape brand perception and drive measurable business outcomes when executed with creativity, precision, and user focus.
               </AnimatedCopy>
             </div>
           </div>

@@ -47,8 +47,7 @@ const Page = () => {
         <section className="contact-hero">
           <div className="container">
             <AnimatedH1 delay={0.85}>
-              I love making stuff and I love to craft bold identities that inspire and leave a lasting mark.
-              I am fierce but true to everyone. Team-player, but able to handle things on my own. I admit mistake, laugh at myself - I am proud of the wrinkles from smiling.
+            I’m driven, collaborative, and adaptable — just as comfortable pair-programming in a team as I am tackling complex challenges on my own. I own my mistakes, learn fast, and never lose the curiosity (or humor) that keeps me pushing forward. 
             </AnimatedH1>
           </div>
         </section>

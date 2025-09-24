@@ -56,13 +56,6 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="col">
-            <h3>Content delivered to your inbox</h3>
-            <div className="subscribe-form">
-              <input type="text" placeholder="Enter your email" />
-              <button>Subscribe</button>
-            </div>
-          </div>
-          <div className="col">
             <div className="row">
               <div className="footer-socials">
                 <a href="https://www.instagram.com/marian_sej/">Instagram</a>

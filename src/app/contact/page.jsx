@@ -76,7 +76,7 @@ const Page = () => {
               </div>
               <div className="col">
                 <div className="sub-col">
-                  <AnimatedCopy>hhh</AnimatedCopy>
+                  <AnimatedCopy></AnimatedCopy>
                   <AnimatedCopy>Prague, Czechia</AnimatedCopy>
                   <AnimatedCopy>USA</AnimatedCopy>
                 </div>

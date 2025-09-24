@@ -12,12 +12,19 @@ nav {
 
 nav a,
 nav p,
-.menu-overlay-bar a,
-.menu-overlay-bar p,
 .showreel a,
 .media-link a {
   position: relative;
   color: #1E2D24;
+  display: block;
+  will-change: transform;
+  user-select: none;
+}
+
+.menu-overlay-bar a,
+.menu-overlay-bar p {
+  position: relative;
+  color: #F9B4ED;
   display: block;
   will-change: transform;
   user-select: none;

@@ -176,7 +176,7 @@ const page = () => {
             <div className="container">
               <div className="row">
                 <AnimatedH1 animateOnScroll={true}>
-                  Brag sheet <br /> & my skills
+                What I've been <br className="" /> up to <br /> & my skills
                 </AnimatedH1>
               </div>
             </div>
@@ -235,14 +235,11 @@ const page = () => {
         <section className="my-stack">
           <div className="container">
             <div className="stack-header">
-              <AnimatedH1 animateOnScroll={true}>My Stack</AnimatedH1>
+              <AnimatedH1 animateOnScroll={true}>My Tech Stack</AnimatedH1>
             </div>
             <div className="stack-grid">
               {techStack.map((tech, index) => (
                 <div className="stack-item" key={index}>
-                  <div className="tech-logo">
-                    {/* Space for programming language logo */}
-                  </div>
                   <AnimatedCopy tag="p" animateOnScroll={true}>
                     {tech}
                   </AnimatedCopy>

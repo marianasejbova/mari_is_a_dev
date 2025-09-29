@@ -201,6 +201,13 @@ const page = () => {
               </div>
               <div className="service">
                 <AnimatedCopy tag="h3">(03)</AnimatedCopy>
+                <AnimatedCopy tag="h2">Tech stack I can offer to u</AnimatedCopy>
+                <AnimatedCopy>01 BE in Python (kinda)</AnimatedCopy>
+                <AnimatedCopy>02 FE in JavaScript, especially React & Next.js</AnimatedCopy>
+                <AnimatedCopy>03 version control with Git</AnimatedCopy>
+              </div>
+              <div className="service">
+                <AnimatedCopy tag="h3">(04)</AnimatedCopy>
                 <AnimatedCopy tag="h2">Soft Skills</AnimatedCopy>
                 <AnimatedCopy>01 Hungry for knowledge - always learning</AnimatedCopy>
                 <AnimatedCopy>02 Teamwork & Collaboration</AnimatedCopy>
@@ -232,22 +239,6 @@ const page = () => {
           </div>
         </section>
 
-        <section className="my-stack">
-          <div className="container">
-            <div className="stack-header">
-              <AnimatedH1 animateOnScroll={true}>My Tech Stack</AnimatedH1>
-            </div>
-            <div className="stack-grid">
-              {techStack.map((tech, index) => (
-                <div className="stack-item" key={index}>
-                  <AnimatedCopy tag="p" animateOnScroll={true}>
-                    {tech}
-                  </AnimatedCopy>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <Footer />
       </div>

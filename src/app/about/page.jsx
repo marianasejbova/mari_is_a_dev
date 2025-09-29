@@ -187,15 +187,15 @@ const page = () => {
             <div className="col">
               <div className="service">
                 <AnimatedCopy tag="h3">(01)</AnimatedCopy>
-                <AnimatedCopy tag="h2">Visual Identity</AnimatedCopy>
+                <AnimatedCopy tag="h2">Thinking abt VISUAL IDENTITTY</AnimatedCopy>
                 <AnimatedCopy>01 Color Theory & Typography</AnimatedCopy>
                 <AnimatedCopy>02 Design Systems & Assets</AnimatedCopy>
                 <AnimatedCopy>03 Website Voice & Personality</AnimatedCopy>
               </div>
               <div className="service">
                 <AnimatedCopy tag="h3">(02)</AnimatedCopy>
-                <AnimatedCopy tag="h2">Digital Experiences</AnimatedCopy>
-                <AnimatedCopy>01 UI/UX & Interactive Design</AnimatedCopy>
+                <AnimatedCopy tag="h2">Developing your digital lore</AnimatedCopy>
+                <AnimatedCopy>01 principls of UI/UX</AnimatedCopy>
                 <AnimatedCopy>02 Frontend Development</AnimatedCopy>
                 <AnimatedCopy>03 Performance & Accessibility</AnimatedCopy>
               </div>

@@ -145,7 +145,7 @@ const page = () => {
             <div className="about-tagline">
               <div className="col">
                 <AnimatedCopy delay={1} animateOnScroll={false}>
-                  BUILDING YOUR BRAND-IDENTITY & RESPONZIVE WEBSITE.
+                  BUILDING YOUR BRAND-IDENTITY & RESPONSIVE WEBSITE.
                 </AnimatedCopy>
               </div>
             </div>

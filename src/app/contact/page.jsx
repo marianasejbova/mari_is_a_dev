@@ -48,6 +48,7 @@ const Page = () => {
           <div className="container">
             <AnimatedH1 delay={0.85}>
             I’m driven, collaborative, and adaptable — just as comfortable pair-programming in a team as I am tackling complex challenges on my own. I own my mistakes, learn fast, and never lose the curiosity (or humor) that keeps me pushing forward. 
+            Now that you know me, I want to know you. Sent me a PM on LinkedIn or IG.
             </AnimatedH1>
           </div>
         </section>
